@@ -1,0 +1,22 @@
+/* File path: src/styles/theme.css
+This file ensures Tailwind utilities are injected and sets global styles.
+*/
+
+/* --- FIX: @import must always precede @tailwind directives --- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap');
+/* ----------------------------------------------------------- */
+
+
+/* --- REQUIRED TAILWIND DIRECTIVES --- */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* ------------------------------------- */
+
+body {
+    font-family: 'Inter', sans-serif;
+    /* The light gray/blue background seen in the video */
+    background-color: #f7f9fc;
+}
+
+/* You can add custom component styles here if needed */
